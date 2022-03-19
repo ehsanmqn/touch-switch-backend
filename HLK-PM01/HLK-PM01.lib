@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# HLK-PM01
+#
+DEF HLK-PM01 HLK 0 40 N Y 1 L N
+F0 "HLK" -500 300 50 H V L BNN
+F1 "HLK-PM01" 0 0 50 H I L BNN
+F2 "HLK-PM01" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+S -600 -400 600 400 0 0 10 f
+X +VO P$4 800 -300 200 L 40 40 0 0 B 
+X -VO P$3 800 300 200 L 40 40 0 0 B 
+X AC1 P$1 -800 100 200 R 40 40 0 0 B 
+X AC2 P$2 -800 -100 200 R 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
